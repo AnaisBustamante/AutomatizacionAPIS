@@ -12,7 +12,6 @@ public class OrderStepDef {
     @Steps
     OrderStep store = new OrderStep();
 
-    // Agrega el Given para definir la URL base
     @Given("la url base del servicio es {string}")
     public void laUrlBaseDelServicioEs(String url) {
         store.definirUrl(url);

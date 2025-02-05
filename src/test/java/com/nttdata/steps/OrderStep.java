@@ -6,7 +6,6 @@ import org.junit.Assert;
 
 public class OrderStep {
 
-    //private static final String URL_BASE = "https://petstore.swagger.io/v2/store";
     private String URL_BASE;
     private Response response;
 
